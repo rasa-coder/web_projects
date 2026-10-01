@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Grade Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h2>Student Grade Calculator</h2>
+<form action="calculation.php" method="POST">
+<label>Student Name:</label>
+<input type="text" name="student_name" required>
+<label>Programming Marks:</label>
+<input type="number" name="programming" required>
+<label>Database Marks:</label>
+<input type="number" name="database" required>
+<label>Web Development Marks:</label>
+<input type="number" name="web" required>
+<label>Favorite course:</label>
+<select name="favorite">
+<option value="Programming">Programming</option>
+<option value="Database">Database</option>
+<option value="Web Development">Web
+
+Development</option>
+</select>
+<br><br>
+
+<button type="submit">
+Calculate Result
+</button>
+</form>
+</div>
+</body>
+</html>
